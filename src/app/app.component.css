@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+#search {
+  display: flex;
+  border: 15px solid black;
+}
+input {
+  flex: 1;
+  min-width: 0;
+  margin-left: 10px;
+}
