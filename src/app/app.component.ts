@@ -11,7 +11,6 @@ export class AppComponent implements OnInit {
   name = 'Angular';
   posts: Array<PostModel>;
   model:SearchModel =  new SearchModel();
-  isTableDisplayed = (this.model.userId || this.model.title || this.model.body);
   constructor(private postService: PostService) {}
   
   ngOnInit() {
